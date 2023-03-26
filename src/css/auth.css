@@ -1,0 +1,27 @@
+.auth-container {
+  width: 100%;
+  padding-top: 100px;
+}
+.auth-container .login-container {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  column-gap: 5px;
+}
+.auth-container .login-container .right-side-box {
+  padding-top: 25px;
+}
+.auth-container .login-container .right-side-box .form-box {
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 400px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  box-shadow: 0 0 2px grey;
+  background-color: #fff;
+}
+.auth-container .login-container .right-side-box .form-box .buttonMd-box {
+  border-top: 1px solid grey;
+  padding: 25px 10px 30px 10px;
+}/*# sourceMappingURL=auth.css.map */

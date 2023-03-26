@@ -1,0 +1,75 @@
+// backgroundlight
+$main:#00337C;
+$body:#E9EDC9;
+$third:#E8F3D6;
+// background dark
+// $main-dark:;
+$body-dark:#034a69;
+$third-dark:#5B8FB9;
+// text color
+$text:#eeecdc;
+$text-s:#202027;
+$text-brand:#282065;
+
+
+.nav-container{
+ background-color: $main;
+ color:$text;
+ box-sizing: border-box;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+padding: 0 15px;
+
+ .nav-brand{
+  display: flex;
+  box-sizing: border-box;
+  
+  .brand-logo{width: 40px;
+    height: 40px;
+    border-radius: 50%;
+   background-position: center;
+background-size: cover;
+  }
+
+  .brand-name{
+    width: 200px;
+    height: 40px;
+  }
+ }
+.nav-links{
+display: flex;
+
+ .links-items{
+  .links{
+   display: flex;
+   margin: 0 10px;
+   padding: 0;
+
+   .link{
+    border: 1px solid black;
+    list-style: none;
+    padding: 5px;
+   }
+  }
+ }
+ .account-container{
+  width:100px;
+  box-sizing: border-box;
+
+  .user-account{
+   display: flex;
+   flex-direction: column;
+   border: 1px solid #fff;
+   .user-thumb{
+    margin: auto;
+    width: 32px;
+    height: 32px;
+    border:1px solid #fff;
+    border-radius: 50%;
+    
+   }
+  }
+ }
+}
+}

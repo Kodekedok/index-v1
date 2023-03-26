@@ -1,0 +1,16 @@
+.button-lg-container{
+ width: 100%;
+ height:auto;
+background-color: blue;
+color: #fff;
+text-align: center;
+border-radius: 5px;
+
+ .button-lg{
+padding: 10px 0;
+text-transform:capitalize ;
+background-color: inherit;
+color: inherit;
+border: none;
+ }
+}

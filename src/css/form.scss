@@ -1,0 +1,23 @@
+.form-container{
+
+ .form{
+  width: 100%;
+  padding: 10px;
+ }
+ .lupa-sandi{
+  padding: 20px 0;
+  text-align: center;
+  color: blue;
+
+  .link-to-lupa-sandi{
+   text-align: center;
+   text-decoration: none;
+   text-transform: capitalize;
+   color: inherit;
+  }
+  .link-to-lupa-sandi:hover{
+   text-decoration: underline;
+   color: blue;
+  }
+ }
+}

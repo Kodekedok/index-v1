@@ -1,0 +1,22 @@
+.input-box {
+  width: 100%;
+  position: relative;
+  border: none;
+  border-radius: 5px;
+  margin: 10px auto;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.input-box .input {
+  width: 100%;
+  height: 100%;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  outline: none;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.input-box .input:focus-within {
+  outline: 1.3px solid transparent;
+}/*# sourceMappingURL=input.css.map */

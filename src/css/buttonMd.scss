@@ -1,0 +1,15 @@
+.button-md-container{
+ width: 50%;
+ background-color: blue;
+ color: #fff;
+ text-align: center;
+ border-radius: 5px;
+ margin: 0 auto;
+ .button-md{
+  padding: 7px 0;
+  text-transform: capitalize;
+  background-color: inherit;
+  color: inherit;
+  border: none;
+ }
+}

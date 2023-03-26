@@ -1,0 +1,23 @@
+
+
+.g-container{
+display: grid;
+grid-template-areas: 
+" nav nav nav nav nav nav"
+ "main main main main main s-nav"
+ "main main main main main s-nav";
+gap: 5px;
+
+.main-nav{
+ grid-area: nav;
+ box-sizing: border-box;
+}
+
+.page-container{
+ grid-area: main;
+}
+
+.side-nav{
+ grid-area: s-nav;
+}
+}

@@ -1,0 +1,54 @@
+
+.auth-container{
+ width: 100%;
+padding-top:100px ;
+ .login-container{
+padding-top: 25px;
+padding-bottom:25px ;
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+column-gap: 5px;
+
+// .left-side-box{
+//  border: 1px solid black;
+//  padding-top: 25px;
+//  box-sizing: border-box;
+
+//  div{
+//   border: 1px solid black;
+//  }
+
+//  .brand-box{
+//   box-sizing: border-box;
+//   .brand-logo{
+//    box-sizing: border-box;
+
+//    .play-code-logo{
+//     display: block;
+//     width: 100%;
+//     height: 100%;
+//     box-sizing: border-box;
+//    }
+//   }
+//  }
+// }
+.right-side-box{
+ padding-top: 25px;
+
+ .form-box{
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 400px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  box-shadow: 0 0 2px grey;
+  background-color: #fff;
+
+  .buttonMd-box{
+  border-top: 1px solid grey;
+   padding: 25px 10px 30px 10px;
+  }
+ }
+}
+ }
+}

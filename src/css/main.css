@@ -1,0 +1,10 @@
+
+
+div{
+ box-sizing: border-box;
+}
+
+#root{
+ background-color: #E9EDC9;
+ min-height: 100vh;
+}
